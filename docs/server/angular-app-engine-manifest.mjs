@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/GPTAdvisors',
+  basePath: '/GPTAdvisors/',
   entryPoints: {
     '': () => import('./main.server.mjs')
   },
