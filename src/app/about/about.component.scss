@@ -1,0 +1,53 @@
+.about-section {
+  margin-bottom: 2rem;
+
+  h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #343a40;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #6c757d;
+    line-height: 1.6;
+  }
+
+  img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.text-center h2 {
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.row div {
+  transition: transform 0.3s ease;
+}
+
+.row div:hover {
+  transform: scale(1.05);
+}
+
+// Estilo específico para invertir el orden en la segunda fila
+.about-section.reverse {
+  flex-direction: row-reverse;
+
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
+}
+
+// Estilos generales para pantallas pequeñas
+@media (max-width: 768px) {
+  .about-section {
+    text-align: center;
+
+    img {
+      margin-bottom: 1rem;
+    }
+  }
+}
