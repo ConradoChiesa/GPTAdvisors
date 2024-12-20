@@ -1,8 +1,0 @@
-{
-  "routes": {
-    "/GPTAdvisors": {},
-    "/GPTAdvisors/about": {},
-    "/GPTAdvisors/contact": {},
-    "/GPTAdvisors/home": {}
-  }
-}
