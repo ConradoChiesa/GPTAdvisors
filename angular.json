@@ -43,6 +43,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "/GPTAdvisors/",
               "budgets": [
                 {
                   "type": "initial",
@@ -96,6 +97,9 @@
             "styles": ["src/styles.scss"],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
